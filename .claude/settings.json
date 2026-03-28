@@ -1,6 +1,13 @@
 {
   "skills": {
     "autoLoad": true,
-    "paths": [".claude/skills"]
+    "paths": [
+      ".claude/skills"
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/nakatayouichi/dev/dept-skills -name *.md -path */examples/*)"
+    ]
   }
 }
